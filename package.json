@@ -2,10 +2,10 @@
   "name": "backend-nodejs",
   "version": "1.0.0",
   "description": "Backend REST API implementation for the School Aider App",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "node",
@@ -28,5 +28,13 @@
     "express-jwt": "^5.3.3",
     "express-mongo-sanitize": "^2.0.0",
     "morgan": "^1.10.0"
+  },
+  "engines": {"node": "12.16.0"},
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jomoflash/nodejs-api"
   }
+
+  
 }
